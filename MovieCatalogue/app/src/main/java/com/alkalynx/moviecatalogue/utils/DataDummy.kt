@@ -1,7 +1,7 @@
 package com.alkalynx.moviecatalogue.utils
 
 import com.alkalynx.moviecatalogue.R
-import com.alkalynx.moviecatalogue.data.MovieEntity
+import com.alkalynx.moviecatalogue.data.source.local.entity.MovieEntity
 
 object DataDummy {
 

@@ -4,8 +4,8 @@ import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.alkalynx.moviecatalogue.data.MovieCategoryEntity
-import com.alkalynx.moviecatalogue.data.MovieEntity
+import com.alkalynx.moviecatalogue.data.source.local.entity.MovieCategoryEntity
+import com.alkalynx.moviecatalogue.data.source.local.entity.MovieEntity
 import com.alkalynx.moviecatalogue.databinding.ItemMovieBinding
 import com.alkalynx.moviecatalogue.ui.detail_item.DetailActivity
 

@@ -4,8 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import com.alkalynx.moviecatalogue.R
-import com.alkalynx.moviecatalogue.data.MovieCategoryEntity
-import com.alkalynx.moviecatalogue.data.MovieEntity
+import com.alkalynx.moviecatalogue.data.source.local.entity.MovieCategoryEntity
+import com.alkalynx.moviecatalogue.data.source.local.entity.MovieEntity
 import com.alkalynx.moviecatalogue.databinding.ActivityDetailBinding
 
 class DetailActivity : AppCompatActivity() {

@@ -1,6 +1,6 @@
 package com.alkalynx.moviecatalogue.ui.detail_item
 
-import com.alkalynx.moviecatalogue.data.MovieEntity
+import com.alkalynx.moviecatalogue.data.source.local.entity.MovieEntity
 import com.alkalynx.moviecatalogue.utils.DataDummy
 import org.junit.Before
 import org.junit.Test

@@ -1,7 +1,7 @@
 package com.alkalynx.moviecatalogue.ui.detail_item
 
 import androidx.lifecycle.ViewModel
-import com.alkalynx.moviecatalogue.data.MovieEntity
+import com.alkalynx.moviecatalogue.data.source.local.entity.MovieEntity
 import com.alkalynx.moviecatalogue.utils.DataDummy
 
 class DetailViewModel: ViewModel() {
@@ -12,12 +12,12 @@ class DetailViewModel: ViewModel() {
         movieIndex = index
     }
 
-    fun getMovie(): MovieEntity{
+    fun getMovie(): MovieEntity {
         val movies = DataDummy.generateDummyMovie()
         return movies[movieIndex]
     }
 
-    fun getTvShow(): MovieEntity{
+    fun getTvShow(): MovieEntity {
         val tvShow = DataDummy.generateDummyTvShow()
         return tvShow[movieIndex]
     }

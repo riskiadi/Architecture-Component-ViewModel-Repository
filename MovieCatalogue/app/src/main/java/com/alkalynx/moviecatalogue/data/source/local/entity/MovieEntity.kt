@@ -1,4 +1,4 @@
-package com.alkalynx.moviecatalogue.data
+package com.alkalynx.moviecatalogue.data.source.local.entity
 
 data class MovieEntity(
     var thumbnail:Int,
