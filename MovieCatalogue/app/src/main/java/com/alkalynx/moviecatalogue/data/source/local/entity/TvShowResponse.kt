@@ -1,4 +1,4 @@
-package com.alkalynx.moviecatalogue.data.source.remote.response
+package com.alkalynx.moviecatalogue.data.source.local.entity
 
 import com.google.gson.annotations.SerializedName
 
